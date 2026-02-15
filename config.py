@@ -1,7 +1,7 @@
 import os
 import sys
 
-# Detect base path (normal vs frozen exe)
+# Detect base path
 if getattr(sys, 'frozen', False):
     BASE_DIR = os.path.dirname(sys.executable)
 else:
@@ -11,7 +11,7 @@ else:
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
-    "password": "mysql123",
+    "password": "YOUR PASSWORD",
     "database": "mesh_insight",
     "port": 3306,
 }
