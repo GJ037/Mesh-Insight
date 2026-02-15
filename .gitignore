@@ -1,0 +1,24 @@
+# Virtual Environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# STL Models
+models/
+
+# Generated output
+outputs/
+
+# Version folder
+versions/
+
+# Build files
+build/
+dist/
+*.spec
+
+# OS files
+.DS_Store
+Thumbs.db
