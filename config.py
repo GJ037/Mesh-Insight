@@ -11,7 +11,7 @@ else:
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
-    "password": "YOUR PASSWORD",
+    "password": "mysql123",
     "database": "mesh_insight",
     "port": 3306,
 }
