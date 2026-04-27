@@ -1,4 +1,4 @@
-Mesh Insight ALPHA
+Mesh Insight
 3D Model Analyzer – MySQL Edition
 -----------------------------------
 
@@ -41,15 +41,15 @@ SETUP INSTRUCTIONS
 
 4. Ensure MySQL is running.
 
-5. Open the MeshInsight folder and run:
+5. Open the terminal and locate Mesh-Insight folder
 
-   MeshInsight.exe
+   Run: runner.py
 
 -----------------------------------
 FOLDER STRUCTURE
 
-MeshInsight/
-    MeshInsight.exe
+Mesh-Insight/
+    ...
     models/       ← STL storage
     outputs/      ← CSV exports
     (system DLLs and dependencies)
@@ -57,6 +57,7 @@ MeshInsight/
 -----------------------------------
 KNOWN LIMITATIONS
 
+- Experimental Project
 - Requires MySQL server (not standalone)
 - Rendering opens in separate window
 - Large STL files (50MB+) may take longer to process
