@@ -2,8 +2,8 @@ Mesh Insight
 3D Model Analyzer – MySQL Edition
 -----------------------------------
 
-Mesh Insight is a desktop application for automated analysis,
-evaluation, and visualization of 3D STL mesh models.
+Mesh Insight is a project for automated analysis, evaluation,
+and visualization of 3D STL mesh models.
 
 Features:
 - Mesh statistics analysis (vertices, triangles, surface, volume)
